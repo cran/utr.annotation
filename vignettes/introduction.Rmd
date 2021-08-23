@@ -1,5 +1,5 @@
 ---
-title: "Introduction to utR.annotation package"
+title: "Introduction to utr.annotation package"
 author: "Yating Liu"
 date: "`r format(Sys.time(), '%B/%d/%Y')`"
 description: "This document introduces you how to use utr.annotation package to annotate variants that impact important elements in the UTRs"
@@ -62,7 +62,7 @@ keras::install_keras(version = "2.2.4", tensorflow = "1.14.0", method = "conda")
 devtools::install_bitbucket("jdlabteam/mrl.dl.model")
 ```
   
-### 1.2 Install utR.annotation package
+### 1.2 Install utr.annotation package
 ```{r install, message=FALSE, eval=FALSE}
 # Install the release version from CRAN 
 install.packages("utr.annotation")
@@ -87,7 +87,7 @@ library(utr.annotation)
 ## 3. Run UTR annotation
 
 ### 3.1 Input variant file
-utR.annotation accepts variant files in either CSV or VCF format, which must have 4 required columns: Chr, Pos, Ref, Alt. Chr represents the chromosome number with or without "chr" prefix. Pos represents the variant position in the chromosome. Ref represents the reference sequence. Alt represents the altered sequence. If there are multiple Alt sequence in one row and concatenated with "," (ex: A,C), this row will be separated into multiple rows which have one Alt sequence 
+utr.annotation accepts variant files in either CSV or VCF format, which must have 4 required columns: Chr, Pos, Ref, Alt. Chr represents the chromosome number with or without "chr" prefix. Pos represents the variant position in the chromosome. Ref represents the reference sequence. Alt represents the altered sequence. If there are multiple Alt sequence in one row and concatenated with "," (ex: A,C), this row will be separated into multiple rows which have one Alt sequence 
 
 ### 3.2 Parameters for runUTRAnnotation function
 * variantFile: the full path of the input variant file, which should be in CSV or VCF format and must have 4 required columns: Chr, Pos, Ref, Alt. Chr represents the chromosome number with or without "chr" prefix. Pos represents the variant position in the chromosome. Ref represents the reference sequence. Alt represents the altered sequence.

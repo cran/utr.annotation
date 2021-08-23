@@ -1,6 +1,6 @@
-9c5a4c7844e04ba116914f3811550ab0 *DESCRIPTION
+899edc0bd09a6b3d7a9aa6a62b8f9a7e *DESCRIPTION
 6623d2a44480d5f289bac400844ce0e0 *NAMESPACE
-7b772ffb979ee5ec89dd979b56320fe9 *NEWS.md
+e9d31ff129ba993677d79f5fde8a77ba *NEWS.md
 42ebe313090b648755b3e160b0640c24 *R/conservation_scores.R
 a370785a29c0a6dae5423d2454532403 *R/get_genome_db.R
 45b56ecc512207c5df02569ea37af205 *R/read_data.R
@@ -8,11 +8,11 @@ a370785a29c0a6dae5423d2454532403 *R/get_genome_db.R
 0d1cad519230ea85b30c24e01377e765 *R/sysdata.rda
 60ac6b2b16085e5226cad4856146ef62 *R/utr5_mrl_prediction.R
 0b90ce1fd1eabf5282111054deb9bb95 *R/utr_analysis.R
-459390261ea296b357cc06dd76bba9bf *README.md
+24ce41de1896098700a10ef3831debcc *README.md
 6ca6638c6e42b5f025310f91384ddb46 *build/vignette.rds
 a9d77e4f56f0d7fa3121337871cef032 *inst/doc/introduction.R
-8702c5cf20535f0d0869ff2bd4f1e375 *inst/doc/introduction.Rmd
-09fd51cfa0e5212316f34d71f771dacd *inst/doc/introduction.pdf
+de545a571e3e17ffb3800e6d7d655b96 *inst/doc/introduction.Rmd
+e2b355c901388c9080ad6a85b9715a3e *inst/doc/introduction.pdf
 ad3abe4cd9edd2d9b72867bc8783a8c5 *inst/extdata/Conservation_scores/hg38.phastCons100way.bw
 81479257d615293917e76642b7ccbbc7 *inst/extdata/Conservation_scores/hg38.phyloP100way.bw
 58ba52160c74f2eec4b5c907c9073bde *inst/extdata/annotated_variants_sample.csv
@@ -76,7 +76,7 @@ c13b4ea9fd52e0a447cd8aa5887d9cdb *tests/testthat/test-conservation_scores.R
 9c04235df188efd017a09797e2f5f4b9 *tests/testthat/test-get_genome_db.R
 a0a42e194f936d8e176f036e0b12d3b5 *tests/testthat/test-read_data.R
 25db59783d3e0dd1f93e7efd3efd59d3 *tests/testthat/test-run_annotation.R
-edfc1e14e13096cc353dc56ca47e7751 *tests/testthat/test-utr5_mrl_prediction.R
+e01a7408356c8bf625eda56720939b57 *tests/testthat/test-utr5_mrl_prediction.R
 824178699765da4dca4ad4e4e0234891 *tests/testthat/test-utr_analysis.R
 ad3abe4cd9edd2d9b72867bc8783a8c5 *tests/testthat/testdata/Conservation_scores/hg38.phastCons100way.subset.bw
 81479257d615293917e76642b7ccbbc7 *tests/testthat/testdata/Conservation_scores/hg38.phyloP100way.subset.bw
@@ -99,4 +99,4 @@ a5c90975f4486f171b9f9b243d0cf111 *tests/testthat/testdata/vcf_multialts_splitted
 f4f6e3e831e9c1b6df9b6150f6dba8b5 *tests/testthat/testdata/vcf_variants.vcf
 dc87033b55c3a9116f9ca7dffd794775 *tests/testthat/testdata/vcf_variants_results.csv
 90da11745f84af00a5af828c764a2fec *tests/testthat/testdata/vcf_variants_results_no_mrl.csv
-8702c5cf20535f0d0869ff2bd4f1e375 *vignettes/introduction.Rmd
+de545a571e3e17ffb3800e6d7d655b96 *vignettes/introduction.Rmd
